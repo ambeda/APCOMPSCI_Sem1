@@ -1,0 +1,24 @@
+Lesson 01 Notes
+
+Escape sequences-
+
+Characters preceeded by a backslash are an escape sequence.
+Ex: System.out.println(""Say \"Hello!\"); becomes: Say "Hello!" when excecuted
+Escape sequences are used to represent non-graphical characters, and caracters such as ('), ("), and (\).
+
+List of escape sequences and functions:
+\t - Inserts a tab
+\b - Inserts a backspace in text
+\n - Inserts a newline in text
+\r - Inserts a carriage return in text
+\f - Inserts a formfeed in text
+\' - Inserts a single quote character
+\" - Inserts a double quote character
+\\ - inserts a backslash character
+
+ASCII Art-
+
+A graphical technique that uses computers for fast presentation & consists of pictures pieced together 
+from 95 printible characters
+ASCII art is used wherever text is more readily printed or transmitted than graphics, or for when the 
+transmission of graphics is not possible
