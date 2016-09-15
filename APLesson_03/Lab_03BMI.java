@@ -9,11 +9,11 @@ public class Lab_03BMI
 		
 		//prompt for user input
 		System.out.println ("Please input your Height in inches:");
-		int h = keyboard.nextInt();
+		double h = keyboard.nextInt();
 		
 		System.out.println ("Please input your Weight in pounds:");
-		int w = keyboard.nextInt();
+		double w = keyboard.nextInt();
 		
-		System.out.println ("Your BMI is " + w*w/h*h);
+		System.out.println ("Your BMI is " + (w / h / h * 703));
 	}
 }
