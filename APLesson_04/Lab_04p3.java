@@ -1,20 +1,31 @@
-public class Lab_04p3
+import java.util.Scanner;
+public class Lab_04p3 //"Rectangle"
 {
+	static double l;
+	static double w;
+	static double perimeter;
+	
 	public static void main(String[]args)
 	{
-		print(5,5, add(5,5));
-		print(8,9, add(8,9));
-		print(10,20, add(10,20));
-		print(7,15, add(7,15));
+		Lab_04p3 perimeter = new Lab_04p3();
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println ("Length?");
+		double l = keyboard.nextDouble();
+		System.out.println ("Width?");
+		double w = keyboard.nextDouble();
+		
+		calcPerim();
+		print();
 	}
 	
-	public static int add (int one, int two)
+	public static void calcPerim()
 	{
-		return one + two;
+		perimeter = 2 * (l + w);
 	}
 	
-	public static void print (int one, int two, int num)
+	public static void print()
 	{
-		System.out.println
+		System.out.println ("Your rectangle is " + perimeter + " ft around.");
 	}
 }
