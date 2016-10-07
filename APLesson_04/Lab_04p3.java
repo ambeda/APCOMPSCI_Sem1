@@ -1,10 +1,6 @@
 import java.util.Scanner;
 public class Lab_04p3 //"Rectangle"
 {
-	static double l;
-	static double w;
-	static double perimeter;
-	
 	public static void main(String[]args)
 	{
 		Lab_04p3 perimeter = new Lab_04p3();
@@ -15,17 +11,17 @@ public class Lab_04p3 //"Rectangle"
 		System.out.println ("Width?");
 		double w = keyboard.nextDouble();
 		
-		calcPerim();
-		print();
+		print(calcPerim(l, w));
+		
 	}
 	
-	public static void calcPerim()
+	public static double calcPerim(double l, double w)
 	{
-		perimeter = 2 * (l + w);
+		return 2 * (l + w);
 	}
 	
-	public static void print()
+	public static void print(double perimeter)
 	{
-		System.out.println ("Your rectangle is " + perimeter + " ft around.");
+		System.out.printf ("Your rectangle is %10.5f\n", perimeter);
 	}
 }
