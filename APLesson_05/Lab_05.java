@@ -20,6 +20,5 @@ public class Lab_05
 			System.out.println ("You are the winner!");
 		if (!winner)
 			System.out.println ("You are not the winner.");
-		
 	}
 }

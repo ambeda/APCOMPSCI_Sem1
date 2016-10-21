@@ -21,17 +21,24 @@ public class Lab_05GPA
 		System.out.println("Subject 7 Grade:");
 		String g7 = kb.next(); 
 		
-		
+		double gpa = (calcPoints(g1) + calcPoints(g2) + calcPoints(g3) + calcPoints(g4) + calcPoints(g5) + calcPoints(g6) + calcPoints(g7))/7;
+		System.out.println ("Your GPa is " + gpa);
 	}
 	
 	public static double calcPoints(String gpa)
 	{
 		if (gpa.equals("A"))
-			// blah
-		else if (gpa.equals)
-			
+			return 4.0;
+		if (gpa.equals("B"))
+			return 3.0;
+		if (gpa.equals("C"))
+			return 2.0;
+		if (gpa.equals("D"))
+			return 1.0;
+		if (gpa.equals("F"))
+			return 0.0; 	
 		
-		return 0.0; 
-		
+		return 0.0;
 	}
+
 }

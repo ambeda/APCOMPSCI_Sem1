@@ -34,7 +34,7 @@ public class Lab_04
 		double tax = (subtotal * 0.08);
 		System.out.printf ("* %20s   . . . . . . . . . . %10.2f\n", "Tax:", tax);
 		
-		double total = (subtotal + tax);
+		double total = ((subtotal + tax) * 0.15);
 		System.out.printf ("* %20s   . . . . . . . . . . %10.2f\n", "Total:", total);
 		
 		System.out.println ("_______________________________________________________________\n* Thank you for your support *");
