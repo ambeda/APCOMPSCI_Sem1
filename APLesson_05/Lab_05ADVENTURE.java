@@ -15,7 +15,7 @@ public class Lab_05ADVENTURE
 	{
 		Scanner kb = new Scanner(System.in);
 		
-		System.out.println("Your Queen has asked you to stay a beast that has been wreking havoc on the land. \nYou're excited- so excited in fact that you've for gotten what she has asked you to slay! \nWhat was it again...? A lizard or a dragon?"); 
+		System.out.println("Your Queen has asked you to slay a beast that has been wreking havoc on the land. \nYou're excited- so excited in fact that you've for gotten what she has asked you to slay! \nWhat was it again...? A lizard or a dragon?"); 
 		System.out.println("A- A dragon, of course!, B- A lizard!"); 
 		c1 = kb.next(); 
 		
