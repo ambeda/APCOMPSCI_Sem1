@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Lab_06Lefttriangle
+public class Lab_06Rightttriangle
 {
 	public static void main(String[]args)
 	{

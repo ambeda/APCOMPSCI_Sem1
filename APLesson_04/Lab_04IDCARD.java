@@ -31,6 +31,6 @@ public class Lab_04IDCARD
 	
 	public void format(String word, String woord)
 	{
-		System.out.printf("*%20s  %20s*\n", word, woord);
+		System.out.printf("*%20s | %20s*\n", word, woord);
 	}
 }
