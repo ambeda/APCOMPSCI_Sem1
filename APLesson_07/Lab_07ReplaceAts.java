@@ -9,15 +9,15 @@ public class Lab_07ReplaceAts
 		System.out.println ("Please Enter A Sentence:");
 		sentence = kb.nextLine();
 		replace();
-		System.out.println (sentence);
+		
 	}
 	public static void replace()
 	{
 		while(sentence.indexOf("a") >= 0)
 		{
-			sentence = sentence.substring(0, sentence.indexOf("@")) + sentence.substring(sentence.indexOf("a") -1);
+			sentence = sentence.substring(0, sentence.indexOf("a")) + "@" + sentence.substring(sentence.indexOf("a") +1);
 		}
 		
-	
+	System.out.println (sentence);
 	}
 }
