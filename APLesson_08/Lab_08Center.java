@@ -3,13 +3,23 @@ public class Lab_08Center
 {	
 	public static void main (String[]arga)
 	{
-		Scanner kb = new Scanner(System.in)
+		Scanner kb = new Scanner(System.in);
 		System.out.println ("What is your first word?");
-		word1 = kb.next();
+		String word1 = kb.next();
 		System.out.println ("What is your second word?");
-		word2 = kb.next();
+		String word2 = kb.next();
 		System.out.println ("What is your third word?");
-		word3 = kb.next();
+		String word3 = kb.next();
+		
+		System.out.println (makeCenter(word1) + "\n" + makeCenter(word2) + "\n" + makeCenter(word3));
 	}
-	
+	public static String makeCenter(String word)
+	{
+		if (word.length() > 20)
+			return word;
+		else
+		{
+			return makeCenter (" " + word + " ");
+		}
+	}
 }
