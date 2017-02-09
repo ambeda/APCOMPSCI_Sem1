@@ -15,7 +15,7 @@ public class Money
 		this.value = v;
 	}
 	
-	public string toString()
+	public String toString()
 	{
 		return "Your " + name + " is worth $" + value + ".\n";
 	}
