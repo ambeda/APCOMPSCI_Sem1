@@ -41,5 +41,4 @@ public abstract class Toy
 	{
 		return name + ": " + count;
 	}
-	
 }
