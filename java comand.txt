@@ -1,0 +1,26 @@
+//save the file
+NPP_SAVE
+
+//change to the current directory 
+cd "$(CURRENT_DIRECTORY)"
+
+//tell notepad++ where java is 
+C:\Program Files\Java\jdk1.8.0_05\bin\javac $(FILE_NAME)
+
+^COMPILE
+
+
+-
+
+
+//save the file
+NPP_SAVE
+
+//change to the current directory 
+cd "$(CURRENT_DIRECTORY)"
+
+//tell notepad++ where java is 
+C:\Program Files\Java\jdk1.8.0_05\bin\javac $(FILE_NAME)
+C:\Program Files\Java\jdk1.8.0_05\bin\java $(NAME_PART)
+
+^COMPILE AND RUN

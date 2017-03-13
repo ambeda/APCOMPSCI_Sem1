@@ -25,7 +25,9 @@ public class GMC
 	
 	public Array getLoc()
 	{
-		double [][] Location = new double [x,y];
+		double [][] Location = new double [2];
+		xLoc;
+		yLoc;
 		return Loc;
 	}
 }

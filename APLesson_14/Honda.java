@@ -1,4 +1,4 @@
-public class Honda
+public class Honda implements Location
 {
 	
 }
