@@ -1,6 +1,7 @@
 public class Toyota implements Location
 {
 	double[] Location;
+	
 	public Toyota()
 	{
 		Location = new double[2];
