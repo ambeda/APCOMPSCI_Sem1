@@ -1,28 +1,13 @@
-public class Toyota implements Location
+public abstract class Toyota implements Location
 {
 	double[] Location;
 	
-	public Toyota()
+	public Toyota(String n)
 	{
 		Location = new double[2];
+		String[]locs = n.split(", ");
+		Location[0]= Double.parseDouble(locs[0]); 
+		Location[1]= Double.parseDouble(locs[1]); 
 	}
-	
-	public Toyota(String l)
-	{
-		Location = new double[2];
-		String[] locs = l.split(", ");
-		Location[0] = Double.parseDouble(locs[0]);
-		Location[1] = Double.parseDouble(locs[1]);
-	}
-	
-	public void move(double x, double y)
-	{
-		Location[0] += x;
-		Location[1] += y;
-	}
-	
-	public void getLoc()
-	{
-		
-	}
+
 }
